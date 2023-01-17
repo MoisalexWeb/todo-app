@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo App con JavaScript</title>
+	<link rel="icon" href="./images/logo-js-heart.svg">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+	<main>
+		<h1>Todo App</h1>
+
+		<div class="input__field">
+			<input type="text" placeholder="Añadir nueva tarea">
+
+			<button aria-label="Add new todo">
+				<img src="images/add.svg" alt="Añadir">
+			</button>
+		</div>
+
+		<ul class="todo">
+			<!-- Data comes from localStorage -->
+		</ul>
+
+		<div class="footer">
+			<p>Tienes <span class="pending-tasks">0</span> tareas pendientes</p>
+			<button>Borrar todo</button>
+		</div>
+	</main>
+
+
+	<script src="./main.js" type="text/javascript"></script>
+	
+</body>
+</html>
